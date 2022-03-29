@@ -1,0 +1,57 @@
+{
+	"rinkeby": {
+		"SimplePriceOracle": "0x6f86AF75f4351e6CA4A804f1C1d0a769b1d0C3Df",
+		"comptroller": "0xB01222eCC5dc20B93982bFb166d73408310fC258",
+		"unitroller": "0xB3056f6060ACb5e5A688581F4b4821E049016BE2",
+		"DAIToken": "0xf08357f20E9FfE52398388c47d35c408a8D0E692",
+		"USDCToken": "0x6b7583FF6477Bb66009e699b1B6C2b6F2A159Fa2",
+		"BATToken": "0x114085452a812552EA9803044bFdfBBe0418b06B",
+		"CEther": "0x4A5DAD63b1FCd92F7D5067B0c647c6A46180DcE0",
+		"cDAI": "0xbf8F61C3dc83A53fd27dd3860F77Dd042beDF6Bd",
+		"cUSDC": "0x8BA49A8fd7fEEB6103e9F04A263AFF47Aa9E37e6",
+		"cBAT": "0x0F03Bdc6046a6bE3DCBCa81508dD35D1F3eA4661"
+	},
+	"harmony": {
+		"SimplePriceOracle": "0x7105418ABAFbFd54b74954d5c65AE0E9110c078D",
+		"comptroller": "0x566D20d75fFeD308e87f6e45F4D9537D13ecb002",
+		"unitroller": "0xf56BdF268DAaBE5C778E9fd30c5124e81827A10E",
+		"DAIToken": "0x572BD300b19575fCda450132FA0AEe05C581277e",
+		"USDCToken": "0x902a26f35F8a26CCb0c01e673cE5Fb7EFC99154D",
+		"BATToken": "0x4864fbF4ebb66D406c46Dfb866e05c74632fFb54",
+		"Base500bps_Slope1200bps": "0xA56c201230E36D604dc9CB50DbDBC8A56902dB45",
+		"base0bps_Slope3000bps": "0xCFAF7419c4923AD8F99ba0D9aFdBfaEA5C1533ac",
+		"base200bps_Slope3000bps": "0x13E9D79F5dD95f1e3E38F77d00385D7737d7f8CB",
+		"base200bps_Slope2000bps_Jump20000bps_Kink90": "0x5Ada9CA4ce54C31888b04bE2E679b1347Cf97ABf",
+		"DAIErc20Delegate": "0x6610bFf9F241B15Eb6169003e094Ed29cCFC69F1",
+		"USDCErc20Delegate": "0x63d60a964F1138a1aEc52F76e8A9AFeBD8B9D409",
+		"BATErc20Delegate": "0xCE6050B2aF7F615EA7A869d71F98397AE123b940",
+		"CEther": "0xb43fC22D64063ce02d789B3094d140e48ac52573",
+		"cDAI": "0xCBA9AA61F71475Be9A37384Dfb160F18d3a052c0",
+		"cUSDC": "0x96a1eD2a537D0c2aA57b34114b1f535f658F64C2",
+		"cBAT": "0xBB99B08e12035C596E5641846d29392362D5f5F0"
+	}
+}
+// [
+// 	{
+// 		address: "0xb43fC22D64063ce02d789B3094d140e48ac52573",
+// 		tokenAddress: "",
+// 		interestRateModelAddress: "0xA56c201230E36D604dc9CB50DbDBC8A56902dB45",
+// 		symbol: "ETH",
+// 		name: "Ether",
+// 		decimals: 18,
+// 		ATokenDecimals: 8,
+// 		AToken: "cETH",
+// 		assets_logo: require(`../assets/coins/eth.png`),
+// 	},
+// 	{
+// 		address: "0xB01222eCC5dc20B93982bFb166d73408310fC258",
+// 		tokenAddress: "0x3c3EEa05DdE82595522b69c739b9e97f2e419D66",
+// 		interestRateModelAddress: "0xA56c201230E36D604dc9CB50DbDBC8A56902dB45",
+// 		symbol: "DAI",
+// 		name: "MY DAI",
+// 		decimals: 18,
+// 		ATokenDecimals: 8,
+// 		AToken: "cDAI",
+// 		assets_logo: require(`../assets/coins/dai.png`),
+// 	}
+// ],

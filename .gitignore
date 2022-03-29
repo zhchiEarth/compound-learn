@@ -1,0 +1,15 @@
+node_modules
+.env
+coverage
+coverage.json
+typechain
+build/
+src/types/
+.DS_STORE
+.idea/
+.vscode
+
+#Hardhat files
+cache
+artifacts
+deployments
